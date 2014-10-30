@@ -1,0 +1,23 @@
+{
+    "author": "Nicolas Lochet",
+    "name": "V",
+    "description": "A lightweight object validation lib for node",
+    "version": "0.1.0",
+    "homepage": "https://github.com/nicocube/V",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nicocube/V.git"
+    },
+    "engines": {
+        "node": "0.10.*"
+    },
+    "scripts": {
+        "test": "node_modules/jasmine-node/bin/jasmine-node spec/",
+        "autotest": "node_modules/jasmine-node/bin/jasmine-node --autotest --watch lib/ --test-dir spec/"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "jasmine-node": "1.11.*"
+    },
+    "optionalDependencies": {}
+}
