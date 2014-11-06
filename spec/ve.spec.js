@@ -10,7 +10,7 @@
  */
 
 var
-V = require( __dirname + '/../lib/Ve.js')()
+V = require( __dirname + '/../lib/ve.js')
 
 describe("build a Validator with", function() {
     "use strict"
